@@ -60,3 +60,79 @@ exports.getRecipes = async (req, res) => {
 };
 
 
+// POST /api/recipes/:id/like
+exports.likeRecipe = async (req, res) => {
+  try {
+    const recipeId = req.params.id;
+    const userId = req.user._id;
+
+    const recipe = await Recipe.findById(recipeId);
+    if (!recipe) return res.status(404).json({ message: "Recipe not found" });
+
+    if (recipe.likes.includes(userId))
+      return res.status(400).json({ message: "You already liked this recipe" });
+
+    recipe.likes.push(userId);
+    recipe.likeCount = recipe.likes.length;
+    await recipe.save();
+
+    res.status(200).json({ message: "Recipe liked successfully", likeCount: recipe.likeCount });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+// POST /api/recipes/:id/unlike
+exports.unlikeRecipe = async (req, res) => {
+  try {
+    const recipeId = req.params.id;
+    const userId = req.user._id;
+
+    const recipe = await Recipe.findById(recipeId);
+    if (!recipe) return res.status(404).json({ message: "Recipe not found" });
+
+    if (!recipe.likes.includes(userId))
+      return res.status(400).json({ message: "You have not liked this recipe" });
+
+    recipe.likes = recipe.likes.filter(id => id.toString() !== userId.toString());
+    recipe.likeCount = recipe.likes.length;
+    await recipe.save();
+
+    res.status(200).json({ message: "Recipe unliked successfully", likeCount: recipe.likeCount });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+exports.getFeed = async (req, res) => {
+  try {
+    const page = parseInt(req.query.page) || 1;
+    const limit = 10;
+    const skip = (page - 1) * limit;
+
+    const currentUser = req.user; // from authMiddleware
+
+    // Get recipes from users current user is following
+    const totalRecipes = await Recipe.countDocuments({
+      author: { $in: currentUser.following }
+    });
+
+    const recipes = await Recipe.find({ author: { $in: currentUser.following } })
+      .sort({ createdAt: -1 })
+      .skip(skip)
+      .limit(limit)
+      .populate("author", "username name avatarUrl");
+
+    res.status(200).json({
+      page,
+      totalPages: Math.ceil(totalRecipes / limit),
+      totalRecipes,
+      recipes
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
