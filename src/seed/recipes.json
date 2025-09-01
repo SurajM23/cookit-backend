@@ -1,0 +1,579 @@
+[
+    {
+        "title": "Chocolate Cake",
+        "ingredients": [
+            "2 cups all-purpose flour",
+            "2 cups sugar",
+            "3/4 cup cocoa powder",
+            "2 tsp baking powder",
+            "1/2 tsp baking soda",
+            "1/2 tsp salt",
+            "1 cup milk",
+            "1/2 cup vegetable oil",
+            "2 eggs",
+            "2 tsp vanilla extract",
+            "1 cup boiling water"
+        ],
+        "instructions": "Preheat oven to 350\u00b0F (175\u00b0C). Mix ingredients. Bake 30\u201335 minutes.",
+        "cookTime": 45,
+        "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+    },
+    {
+        "title": "Pasta Carbonara",
+        "ingredients": [
+            "400g spaghetti",
+            "2 tbsp olive oil",
+            "1 onion, chopped",
+            "2 garlic cloves, minced",
+            "500g ground beef",
+            "1 can (400g) crushed tomatoes",
+            "2 tbsp tomato paste",
+            "1 tsp dried oregano",
+            "1 tsp dried basil",
+            "Salt and pepper to taste",
+            "Grated Parmesan cheese"
+        ],
+        "instructions": "Cook pasta. Saut\u00e9 onion and garlic. Add beef, tomatoes, herbs. Combine with pasta.",
+        "cookTime": 35,
+        "imageUrl": "https://images.unsplash.com/photo-1603133872873-0f42ed3f061c"
+    },
+    {
+        "title": "Chicken Curry",
+        "ingredients": [
+            "1 kg chicken, cut into pieces",
+            "3 tbsp vegetable oil",
+            "2 onions, chopped",
+            "3 garlic cloves, minced",
+            "1 tbsp ginger paste",
+            "2 tomatoes, chopped",
+            "2 tsp curry powder",
+            "1 tsp turmeric powder",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1/2 tsp chili powder",
+            "1 cup coconut milk",
+            "Salt to taste",
+            "Fresh coriander leaves for garnish"
+        ],
+        "instructions": "Saut\u00e9 onions, garlic, and ginger. Add spices and tomatoes. Add chicken. Simmer with coconut milk. Garnish.",
+        "cookTime": 50,
+        "imageUrl": "https://images.unsplash.com/photo-1604908177522-5f8cdba9f51a"
+    },
+    {
+        "title": "Recipe 4",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 5",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 6",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 7",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 8",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 9",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 10",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 11",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 12",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 13",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 14",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 15",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 16",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 17",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 18",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 19",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 20",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 21",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 22",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 23",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 24",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 25",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 26",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 27",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 28",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 29",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 30",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 31",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 32",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 33",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 34",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 35",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 36",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 37",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 38",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 39",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 40",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 41",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 42",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 43",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 44",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 45",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 46",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 47",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 48",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 49",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    },
+    {
+        "title": "Recipe 50",
+        "ingredients": [
+            "Ingredient A",
+            "Ingredient B",
+            "Ingredient C"
+        ],
+        "instructions": "Mix ingredients and cook appropriately.",
+        "cookTime": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    }
+]

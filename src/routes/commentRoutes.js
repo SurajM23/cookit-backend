@@ -4,7 +4,7 @@ const { addComment, getCommentsByRecipe } = require("../controllers/commentContr
 const authMiddleware = require("../middlewares/authMiddleware");
 
 // Add a comment
-router.post("/", authMiddleware, addComment);
+router.post("/addcomments", authMiddleware, addComment);
 
 // Get comments for a recipe
 router.get("/:recipeId", getCommentsByRecipe);
