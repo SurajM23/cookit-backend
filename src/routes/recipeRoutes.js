@@ -6,7 +6,8 @@ const {
   getRecipes,
   likeRecipe,
   unlikeRecipe,
-  getFeed
+  getFeed,
+  getUserRecipes
 } = require("../controllers/recipeController");
 
 // POST /api/recipes/add → Protected
@@ -22,4 +23,5 @@ router.post("/:id/unlike", authMiddleware, unlikeRecipe);
 
 router.get("/feed", authMiddleware, getFeed);
 
+router.get("/user/:userId", getUserRecipes);
 module.exports = router;

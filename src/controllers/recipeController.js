@@ -32,7 +32,7 @@ exports.addRecipe = async (req, res) => {
 exports.getRecipes = async (req, res) => {
   try {
     // Page number from query, default 1
-    const page = parseInt(req.query.page) || 1;
+    const page = parseInt(req.query.page) || 1; 
     const limit = 10; // fixed 10 recipes per page
     const skip = (page - 1) * limit;
 
@@ -133,6 +133,38 @@ exports.getFeed = async (req, res) => {
     });
   } catch (err) {
     console.error(err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+
+// controllers/recipeController.js
+exports.getUserRecipes = async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const page = parseInt(req.query.page) || 1;
+    const limit = 10;
+    const skip = (page - 1) * limit;
+
+    // Count total recipes by this user
+    const totalRecipes = await Recipe.countDocuments({ author: userId });
+
+    // Fetch recipes
+    const recipes = await Recipe.find({ author: userId })
+      .sort({ createdAt: -1 }) // newest first
+      .skip(skip)
+      .limit(limit)
+      .populate("author", "username name avatarUrl");
+
+    res.status(200).json({
+      userId,
+      page,
+      totalPages: Math.ceil(totalRecipes / limit),
+      totalRecipes,
+      recipes
+    });
+  } catch (err) {
+    console.error("Error fetching user recipes:", err);
     res.status(500).json({ message: "Server error" });
   }
 };

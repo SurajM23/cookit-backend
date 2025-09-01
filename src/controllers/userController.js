@@ -69,3 +69,49 @@ exports.unfollowUser = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
+
+exports.getUserSuggestions = async (req, res) => {
+  try {
+    const loggedInUserId = req.user.id;
+
+    // Fetch logged-in user to check who they already follow
+    const currentUser = await User.findById(loggedInUserId);
+
+    // Exclude self + already followed users
+    const excludeIds = [loggedInUserId, ...currentUser.following];
+
+    // Random 10 users excluding above
+    const suggestions = await User.aggregate([
+      { $match: { _id: { $nin: excludeIds.map(id => id) } } },
+      { $sample: { size: 10 } }, // get random 10
+      { $project: { username: 1, name: 1, email: 1 } } // only return needed fields
+    ]);
+
+    res.json(suggestions);
+  } catch (error) {
+    console.error("❌ Error fetching user suggestions:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+
+exports.getUserProfile = async (req, res) => {
+  try {
+    const userId = req.params.id;
+
+    // exclude password from response
+    const user = await User.findById(userId).select("-password");
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    res.json(user);
+  } catch (error) {
+    console.error("Error fetching user profile:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+
