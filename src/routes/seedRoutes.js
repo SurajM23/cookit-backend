@@ -101,3 +101,4 @@ module.exports = router;
 
 // Seed recipes (protected, only admin or test user)
 router.post("/recipes", authMiddleware, seedRecipes);
+
