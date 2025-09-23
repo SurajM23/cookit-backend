@@ -86,7 +86,6 @@ exports.getRecipes = async (req, res) => {
   }
 };
 
-// POST /api/recipes/:id/like
 exports.likeRecipe = async (req, res) => {
   try {
     const recipeId = req.params.id;
@@ -95,42 +94,59 @@ exports.likeRecipe = async (req, res) => {
     const recipe = await Recipe.findById(recipeId);
     if (!recipe) return res.status(404).json({ message: "Recipe not found" });
 
-    if (recipe.likes.includes(userId))
-      return res.status(400).json({ message: "You already liked this recipe" });
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).json({ message: "User not found" });
 
-    recipe.likes.push(userId);
-    recipe.likesCount = recipe.likes.length;
+    let action = "";
+
+    if (recipe.likes.includes(userId)) {
+      // Already liked → remove like
+      recipe.likes = recipe.likes.filter(id => id.toString() !== userId.toString());
+      recipe.likesCount = recipe.likes.length;
+
+      user.likedRecipes = user.likedRecipes.filter(
+        id => id.toString() !== recipeId.toString()
+      );
+
+      action = "unliked";
+    } else {
+      // Not liked yet → add like
+      recipe.likes.push(userId);
+      recipe.likesCount = recipe.likes.length;
+
+      user.likedRecipes.push(recipeId);
+
+      action = "liked";
+    }
+
     await recipe.save();
+    await user.save();
 
-    res.status(200).json({ message: "Recipe liked successfully", likesCount: recipe.likesCount });
+    res.status(200).json({
+      message: `Recipe ${action} successfully`,
+      likesCount: recipe.likesCount,
+      action
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: "Server error" });
   }
 };
 
-// POST /api/recipes/:id/unlike
-exports.unlikeRecipe = async (req, res) => {
+exports.getLikedRecipes = async (req, res) => {
   try {
-    const recipeId = req.params.id;
-    const userId = req.user._id;
+    const userId = req.user._id; // comes from JWT via authMiddleware
+    const user = await User.findById(userId).populate("likedRecipes");
 
-    const recipe = await Recipe.findById(recipeId);
-    if (!recipe) return res.status(404).json({ message: "Recipe not found" });
+    if (!user) return res.status(404).json({ message: "User not found" });
 
-    if (!recipe.likes.includes(userId))
-      return res.status(400).json({ message: "You have not liked this recipe" });
-
-    recipe.likes = recipe.likes.filter(id => id.toString() !== userId.toString());
-    recipe.likesCount = recipe.likes.length;
-    await recipe.save();
-
-    res.status(200).json({ message: "Recipe unliked successfully", likesCount: recipe.likesCount });
+    res.status(200).json({ likedRecipes: user.likedRecipes });
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: "Server error" });
   }
 };
+
 
 // GET /api/recipes/feed?page=1
 exports.getFeed = async (req, res) => {

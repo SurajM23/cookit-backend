@@ -5,7 +5,7 @@ const {
   addRecipe,
   getRecipes,
   likeRecipe,
-  unlikeRecipe,
+  getLikedRecipes,
   getFeed,
   getUserRecipes,
   getRecipeById
@@ -19,8 +19,7 @@ router.get("/", getRecipes);
 // Like a recipe
 router.post("/:id/like", authMiddleware, likeRecipe);
 
-// Unlike a recipe
-router.post("/:id/unlike", authMiddleware, unlikeRecipe);
+router.get("/:id/liked", authMiddleware, getLikedRecipes);
 
 router.get("/feed", authMiddleware, getFeed);
 
