@@ -1,579 +1,414 @@
 [
-    {
-        "title": "Chocolate Cake",
-        "ingredients": [
-            "2 cups all-purpose flour",
-            "2 cups sugar",
-            "3/4 cup cocoa powder",
-            "2 tsp baking powder",
-            "1/2 tsp baking soda",
-            "1/2 tsp salt",
-            "1 cup milk",
-            "1/2 cup vegetable oil",
-            "2 eggs",
-            "2 tsp vanilla extract",
-            "1 cup boiling water"
-        ],
-        "instructions": "Preheat oven to 350\u00b0F (175\u00b0C). Mix ingredients. Bake 30\u201335 minutes.",
-        "cookTime": 45,
-        "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
-    },
-    {
-        "title": "Pasta Carbonara",
-        "ingredients": [
-            "400g spaghetti",
-            "2 tbsp olive oil",
-            "1 onion, chopped",
-            "2 garlic cloves, minced",
-            "500g ground beef",
-            "1 can (400g) crushed tomatoes",
-            "2 tbsp tomato paste",
-            "1 tsp dried oregano",
-            "1 tsp dried basil",
-            "Salt and pepper to taste",
-            "Grated Parmesan cheese"
-        ],
-        "instructions": "Cook pasta. Saut\u00e9 onion and garlic. Add beef, tomatoes, herbs. Combine with pasta.",
-        "cookTime": 35,
-        "imageUrl": "https://images.unsplash.com/photo-1603133872873-0f42ed3f061c"
-    },
-    {
-        "title": "Chicken Curry",
-        "ingredients": [
-            "1 kg chicken, cut into pieces",
-            "3 tbsp vegetable oil",
-            "2 onions, chopped",
-            "3 garlic cloves, minced",
-            "1 tbsp ginger paste",
-            "2 tomatoes, chopped",
-            "2 tsp curry powder",
-            "1 tsp turmeric powder",
-            "1 tsp cumin powder",
-            "1 tsp coriander powder",
-            "1/2 tsp chili powder",
-            "1 cup coconut milk",
-            "Salt to taste",
-            "Fresh coriander leaves for garnish"
-        ],
-        "instructions": "Saut\u00e9 onions, garlic, and ginger. Add spices and tomatoes. Add chicken. Simmer with coconut milk. Garnish.",
-        "cookTime": 50,
-        "imageUrl": "https://images.unsplash.com/photo-1604908177522-5f8cdba9f51a"
-    },
-    {
-        "title": "Recipe 4",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 5",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 6",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 7",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 8",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 9",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 10",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 11",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 12",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 13",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 14",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 15",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 16",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 17",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 18",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 19",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 20",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 21",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 22",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 23",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 24",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 25",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 26",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 27",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 28",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 29",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 30",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 31",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 32",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 33",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 34",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 35",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 36",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 37",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 38",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 39",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 40",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 41",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 42",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 43",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 44",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 45",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 46",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 47",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 48",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 49",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    },
-    {
-        "title": "Recipe 50",
-        "ingredients": [
-            "Ingredient A",
-            "Ingredient B",
-            "Ingredient C"
-        ],
-        "instructions": "Mix ingredients and cook appropriately.",
-        "cookTime": 30,
-        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
-    }
+  {
+    "title": "Chocolate Cake",
+    "description": "A rich and moist homemade chocolate cake that's perfect for birthdays or special occasions.",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "2 cups granulated sugar",
+      "3/4 cup unsweetened cocoa powder",
+      "2 tsp baking powder",
+      "1/2 tsp baking soda",
+      "1/2 tsp salt",
+      "1 cup milk",
+      "1/2 cup vegetable oil",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "1 cup boiling water"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.",
+      "In a large bowl, whisk together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+      "Add milk, oil, eggs, and vanilla. Beat with an electric mixer on medium speed for 2 minutes until smooth.",
+      "Carefully stir in boiling water until fully combined. The batter will be thin, but that’s normal.",
+      "Divide batter evenly into prepared pans.",
+      "Bake for 30–35 minutes or until a toothpick inserted in the center comes out clean.",
+      "Cool in pans for 10 minutes, then transfer cakes to a wire rack to cool completely before frosting or serving."
+    ],
+    "cookTime": 40,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+  },
+  {
+    "title": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+    "ingredients": [
+      "12 oz spaghetti",
+      "4 oz pancetta or guanciale, diced",
+      "2 large eggs",
+      "1 cup grated Parmesan cheese",
+      "2 cloves garlic, minced",
+      "Salt to taste",
+      "Freshly ground black pepper"
+    ],
+    "steps": [
+      "Cook spaghetti in salted boiling water until al dente.",
+      "In a skillet, cook pancetta until crispy, then add garlic and sauté briefly.",
+      "In a bowl, whisk eggs with Parmesan cheese and black pepper.",
+      "Drain pasta, reserving 1/2 cup pasta water.",
+      "Quickly toss pasta with pancetta and remove from heat.",
+      "Stir in egg and cheese mixture, adding reserved pasta water as needed to create a creamy sauce.",
+      "Serve immediately with extra Parmesan and black pepper."
+    ],
+    "cookTime": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1603133872878-684f208fb84b"
+  },
+  {
+    "title": "Caesar Salad",
+    "description": "A fresh salad with romaine lettuce, croutons, Parmesan cheese, and creamy Caesar dressing.",
+    "ingredients": [
+      "1 head romaine lettuce, chopped",
+      "1/2 cup grated Parmesan cheese",
+      "1 cup croutons",
+      "1/3 cup Caesar dressing",
+      "1 lemon, cut into wedges"
+    ],
+    "steps": [
+      "Wash and chop romaine lettuce.",
+      "In a large bowl, toss lettuce with Caesar dressing until well coated.",
+      "Add croutons and Parmesan cheese and mix gently.",
+      "Serve chilled with lemon wedges on the side."
+    ],
+    "cookTime": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1569058242253-92a9d0a4bdde"
+  },
+  {
+    "title": "Chicken Curry",
+    "description": "A flavorful Indian chicken curry cooked with aromatic spices and a rich tomato gravy.",
+    "ingredients": [
+      "1 lb chicken, cut into pieces",
+      "2 onions, finely chopped",
+      "3 tomatoes, pureed",
+      "2 tbsp ginger-garlic paste",
+      "2 tsp curry powder",
+      "1 tsp turmeric powder",
+      "1 tsp chili powder",
+      "1/2 cup plain yogurt",
+      "3 tbsp vegetable oil",
+      "Salt to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "steps": [
+      "Heat oil in a large pan and sauté onions until golden brown.",
+      "Add ginger-garlic paste and cook for 1 minute.",
+      "Stir in curry powder, turmeric, and chili powder.",
+      "Add chicken and cook until browned on all sides.",
+      "Mix in pureed tomatoes and yogurt, then simmer for 20 minutes until chicken is cooked through.",
+      "Season with salt and garnish with fresh cilantro before serving."
+    ],
+    "cookTime": 45,
+    "imageUrl": "https://images.unsplash.com/photo-1604908177093-3f47e1e3e96d"
+  },
+  {
+    "title": "Pancakes",
+    "description": "Fluffy homemade pancakes perfect for a weekend breakfast.",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "3 1/2 tsp baking powder",
+      "1 tsp salt",
+      "1 tbsp sugar",
+      "1 1/4 cups milk",
+      "1 egg",
+      "3 tbsp melted butter"
+    ],
+    "steps": [
+      "In a bowl, mix flour, baking powder, salt, and sugar.",
+      "Whisk in milk, egg, and melted butter until smooth.",
+      "Heat a lightly oiled griddle over medium-high heat.",
+      "Pour batter onto griddle, using 1/4 cup for each pancake.",
+      "Cook until bubbles form and edges are dry, then flip and cook until golden brown."
+    ],
+    "cookTime": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1584270354949-d9e593c62316"
+  },
+  {
+    "title": "Margherita Pizza",
+    "description": "Classic Italian pizza with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "1 cup fresh mozzarella, sliced",
+      "Fresh basil leaves",
+      "Olive oil for drizzling",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Preheat oven to 475°F (245°C).",
+      "Spread tomato sauce over rolled-out dough.",
+      "Top with mozzarella slices and basil leaves.",
+      "Drizzle with olive oil and sprinkle with salt.",
+      "Bake for 12-15 minutes or until crust is golden and cheese is bubbling."
+    ],
+    "cookTime": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1601924582975-64b38fc11fc6"
+  },
+  {
+    "title": "Beef Stir Fry",
+    "description": "Quick and easy beef stir fry with vegetables and soy sauce.",
+    "ingredients": [
+      "1 lb beef sirloin, thinly sliced",
+      "2 cups mixed vegetables (bell peppers, broccoli, carrots)",
+      "3 tbsp soy sauce",
+      "2 tbsp oyster sauce",
+      "1 tsp cornstarch",
+      "2 cloves garlic, minced",
+      "2 tbsp vegetable oil"
+    ],
+    "steps": [
+      "Mix beef with cornstarch and set aside.",
+      "Heat oil in a wok and sauté garlic until fragrant.",
+      "Add beef and cook until browned.",
+      "Add vegetables and stir fry for 3-4 minutes.",
+      "Add soy sauce and oyster sauce, toss to coat, and cook for another 2 minutes."
+    ],
+    "cookTime": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092"
+  },
+  {
+    "title": "Vegetable Soup",
+    "description": "Healthy and comforting vegetable soup made with seasonal vegetables.",
+    "ingredients": [
+      "1 tbsp olive oil",
+      "1 onion, chopped",
+      "2 carrots, sliced",
+      "2 celery stalks, sliced",
+      "1 zucchini, diced",
+      "1 cup green beans, chopped",
+      "4 cups vegetable broth",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Heat olive oil in a large pot, sauté onions, carrots, and celery until soft.",
+      "Add zucchini and green beans, cook for 2 minutes.",
+      "Pour in vegetable broth, bring to a boil, then simmer for 20 minutes.",
+      "Season with salt and pepper before serving."
+    ],
+    "cookTime": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1617196033701-45b199ec609c"
+  },
+  {
+    "title": "Tacos",
+    "description": "Delicious Mexican tacos with seasoned beef, fresh vegetables, and cheese.",
+    "ingredients": [
+      "8 small corn tortillas",
+      "1 lb ground beef",
+      "1 packet taco seasoning",
+      "1 cup shredded lettuce",
+      "1 tomato, diced",
+      "1/2 cup shredded cheddar cheese",
+      "Sour cream and salsa for serving"
+    ],
+    "steps": [
+      "Cook ground beef in a skillet until browned. Drain excess fat.",
+      "Add taco seasoning and a little water, simmer 5 minutes.",
+      "Warm tortillas on a dry skillet.",
+      "Fill tortillas with beef, lettuce, tomato, and cheese.",
+      "Serve with sour cream and salsa."
+    ],
+    "cookTime": 25,
+    "imageUrl": "https://images.unsplash.com/photo-1617196033830-77c75f86c06c"
+  },
+  {
+    "title": "Grilled Salmon",
+    "description": "Perfectly grilled salmon fillets with lemon and herbs.",
+    "ingredients": [
+      "4 salmon fillets",
+      "2 tbsp olive oil",
+      "1 lemon, sliced",
+      "2 cloves garlic, minced",
+      "Salt and pepper to taste",
+      "Fresh dill for garnish"
+    ],
+    "steps": [
+      "Preheat grill to medium-high heat.",
+      "Brush salmon with olive oil and season with salt, pepper, and garlic.",
+      "Place salmon on the grill, skin-side down, cook 4-5 minutes per side.",
+      "Garnish with lemon slices and fresh dill before serving."
+    ],
+    "cookTime": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1617196033960-8f19a00375a1"
+  },
+  {
+    "title": "Banana Bread",
+    "description": "Moist and sweet banana bread made from ripe bananas.",
+    "ingredients": [
+      "3 ripe bananas, mashed",
+      "1/3 cup melted butter",
+      "1 cup sugar",
+      "1 egg, beaten",
+      "1 tsp vanilla extract",
+      "1 tsp baking soda",
+      "Pinch of salt",
+      "1 1/2 cups all-purpose flour"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C) and grease a loaf pan.",
+      "Mix mashed bananas with melted butter.",
+      "Stir in sugar, egg, and vanilla.",
+      "Add baking soda, salt, and flour, mix until combined.",
+      "Pour batter into loaf pan and bake 60 minutes or until a toothpick comes out clean."
+    ],
+    "cookTime": 65,
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+  },
+  {
+    "title": "Shrimp Fried Rice",
+    "description": "Quick and tasty shrimp fried rice with vegetables and soy sauce.",
+    "ingredients": [
+      "2 cups cooked rice",
+      "1/2 lb shrimp, peeled and deveined",
+      "1 cup mixed vegetables",
+      "2 eggs, beaten",
+      "3 tbsp soy sauce",
+      "2 tbsp vegetable oil",
+      "2 green onions, sliced"
+    ],
+    "steps": [
+      "Heat oil in a skillet, cook shrimp until pink, remove and set aside.",
+      "Scramble eggs in the same skillet.",
+      "Add rice and vegetables, stir-fry for 5 minutes.",
+      "Add shrimp back, pour soy sauce, toss to combine.",
+      "Garnish with green onions and serve."
+    ],
+    "cookTime": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1617196034111-9f59e1fbbf07"
+  },
+  {
+    "title": "Greek Salad",
+    "description": "Refreshing salad with cucumbers, tomatoes, olives, and feta cheese.",
+    "ingredients": [
+      "2 cucumbers, sliced",
+      "4 tomatoes, chopped",
+      "1/2 red onion, sliced",
+      "1/2 cup feta cheese, crumbled",
+      "1/4 cup olives",
+      "2 tbsp olive oil",
+      "1 tbsp red wine vinegar",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Combine cucumbers, tomatoes, red onion, feta, and olives in a bowl.",
+      "Drizzle with olive oil and red wine vinegar.",
+      "Season with salt and pepper, toss gently.",
+      "Serve chilled."
+    ],
+    "cookTime": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1617196034232-dc7a7f1ec6a7"
+  },
+  {
+    "title": "Chocolate Chip Cookies",
+    "description": "Classic cookies loaded with chocolate chips, chewy on the inside and crisp on the edges.",
+    "ingredients": [
+      "1 cup unsalted butter, softened",
+      "1 cup granulated sugar",
+      "1 cup brown sugar",
+      "2 eggs",
+      "2 tsp vanilla extract",
+      "3 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "2 cups chocolate chips"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream butter and sugars until smooth.",
+      "Add eggs and vanilla, mix well.",
+      "Combine flour, baking soda, and salt, gradually add to the wet mixture.",
+      "Stir in chocolate chips.",
+      "Drop by spoonfuls onto baking sheets and bake 10-12 minutes."
+    ],
+    "cookTime": 20,
+    "imageUrl": "https://images.unsplash.com/photo-1599785209707-0fa5d13e5c1f"
+  },
+  {
+    "title": "Tomato Soup",
+    "description": "Smooth and creamy tomato soup, perfect with grilled cheese.",
+    "ingredients": [
+      "2 tbsp olive oil",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "4 cups chopped tomatoes",
+      "2 cups vegetable broth",
+      "1/2 cup cream",
+      "Salt and pepper to taste",
+      "Fresh basil for garnish"
+    ],
+    "steps": [
+      "Heat olive oil, sauté onion and garlic until soft.",
+      "Add tomatoes and vegetable broth, bring to boil.",
+      "Simmer 20 minutes, then blend until smooth.",
+      "Stir in cream, season with salt and pepper.",
+      "Garnish with fresh basil and serve."
+    ],
+    "cookTime": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1617196034371-fb0c3b6edb8a"
+  },
+  {
+    "title": "BBQ Ribs",
+    "description": "Tender and juicy BBQ pork ribs with homemade sauce.",
+    "ingredients": [
+      "2 lbs pork ribs",
+      "1 cup BBQ sauce",
+      "Salt and pepper to taste",
+      "2 tbsp olive oil"
+    ],
+    "steps": [
+      "Preheat oven to 300°F (150°C).",
+      "Season ribs with salt and pepper.",
+      "Brush with olive oil and cover with foil, bake for 2 hours.",
+      "Remove foil, brush with BBQ sauce, bake another 30 minutes.",
+      "Serve hot with extra BBQ sauce."
+    ],
+    "cookTime": 150,
+    "imageUrl": "https://images.unsplash.com/photo-1617196034484-67a1e0c9fa49"
+  },
+  {
+    "title": "Pad Thai",
+    "description": "Classic Thai stir-fried noodles with shrimp, tofu, and peanuts.",
+    "ingredients": [
+      "8 oz rice noodles",
+      "1/2 lb shrimp",
+      "1/2 cup tofu, diced",
+      "2 eggs",
+      "3 tbsp fish sauce",
+      "2 tbsp tamarind paste",
+      "2 tbsp sugar",
+      "2 cloves garlic, minced",
+      "1/4 cup peanuts, crushed",
+      "2 green onions, chopped"
+    ],
+    "steps": [
+      "Cook noodles according to package instructions.",
+      "Heat oil, sauté garlic, tofu, and shrimp until cooked.",
+      "Push ingredients to the side, scramble eggs.",
+      "Add noodles, fish sauce, tamarind, and sugar, toss to combine.",
+      "Garnish with peanuts and green onions before serving."
+    ],
+    "cookTime": 30,
+    "imageUrl": "https://images.unsplash.com/photo-1617196034590-cd6f33f4f7e5"
+  },
+  {
+    "title": "Lemon Drizzle Cake",
+    "description": "Zesty and moist lemon cake with a sweet lemon glaze.",
+    "ingredients": [
+      "1/2 cup unsalted butter, softened",
+      "1 cup sugar",
+      "2 eggs",
+      "1 1/2 cups all-purpose flour",
+      "1 tsp baking powder",
+      "1/2 tsp salt",
+      "1/2 cup milk",
+      "Zest of 2 lemons",
+      "1/4 cup lemon juice",
+      "1/2 cup powdered sugar for glaze"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Cream butter and sugar, add eggs one at a time.",
+      "Mix in flour, baking powder, and salt.",
+      "Stir in milk and lemon zest.",
+      "Pour into greased loaf pan, bake 40-45 minutes.",
+      "Mix powdered sugar with lemon juice for glaze and drizzle over cooled cake."
+    ],
+    "cookTime": 55,
+    "imageUrl": "https://images.unsplash.com/photo-1617196034712-1e0a4f3c6b8d"
+  }
 ]
