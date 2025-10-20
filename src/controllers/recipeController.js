@@ -1,4 +1,6 @@
 const Recipe = require("../models/Recipe");
+const User = require('../models/userModel');
+
 
 // Utility function to normalize steps
 const normalizeSteps = (recipe) => {
@@ -157,11 +159,17 @@ exports.getFeed = async (req, res) => {
 
     const currentUser = req.user;
 
-    const totalRecipes = await Recipe.countDocuments({
-      author: { $in: currentUser.following }
-    });
+    let filter = {};
+    if (currentUser.following && currentUser.following.length > 0) {
+      filter = { author: { $in: currentUser.following } };
+    } else {
+      // Fallback: show popular or recent public recipes
+      filter = {}; // all recipes
+    }
 
-    const recipes = await Recipe.find({ author: { $in: currentUser.following } })
+    const totalRecipes = await Recipe.countDocuments(filter);
+
+    const recipes = await Recipe.find(filter)
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(limit)
@@ -184,6 +192,7 @@ exports.getFeed = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
 
 // GET /api/recipes/user/:userId?page=1
 exports.getUserRecipes = async (req, res) => {

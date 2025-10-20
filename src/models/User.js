@@ -11,6 +11,7 @@ const userSchema = new mongoose.Schema({
   following: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
   followersCount: { type: Number, default: 0 },
   followingCount: { type: Number, default: 0 },
+  likedRecipes: [{ type: mongoose.Schema.Types.ObjectId, ref: "Recipe" }]
 }, { timestamps: true });
 
 
