@@ -1,5 +1,5 @@
 const Recipe = require("../models/Recipe");
-const User = require('../models/userModel');
+const User = require("../models/User");
 
 
 // Utility function to normalize steps
